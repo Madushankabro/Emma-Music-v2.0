@@ -25,9 +25,6 @@ async def start(client, message):
         btn = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton(
-                        text="Source  📦", url="https://github.com/scprojectslk/JESongBot"
-                    ),
                      InlineKeyboardButton(
                         text="Channel 🔊", url="https://t.me/UvinduBr"
                     ),
