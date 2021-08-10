@@ -27,7 +27,8 @@ The easiest way to deploy this Song Bot  <br><br>
 
 [Infinity BOTs](https://t.me/Infinity_BOTs)
 
+[@UvinduBro](https://t.me/Uvindu_Bro)
 
 ### Developers:
 
-[@UvinduBro](https://t.me/Uvindu_Bro)
+
