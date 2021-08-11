@@ -13,7 +13,7 @@ Hey [{}](tg://user?id={}), I'm Song Downloader Bot 🎵
 [😉](https://telegra.ph/file/d200133a770bb835fd7dc.jpg) Just send me the song name you want to download.😋
 eg:```/song Faded```
 
-A bot by @tgbotslkchat
+A bot by @tgbotslkgroup
 """
 
 @app.on_message(filters.command("start"))
@@ -29,7 +29,7 @@ async def start(client, message):
                         text="Channel 🔊", url="https://t.me/tgbotslk"
                     ),
                     InlineKeyboardButton(
-                        text="Dev 🔥", url="https://t.me/tgbotslkchat"
+                        text="Group🔥", url="https://t.me/tgbotslkgroup"
                     )
                 ]
             ]
