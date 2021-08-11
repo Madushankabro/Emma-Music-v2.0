@@ -12,8 +12,8 @@ Hey [{}](tg://user?id={}), I'm Song Downloader Bot 🎵
 
 😉 Just send me the song name you want to download.😋
       eg:```/song Faded```
-  (https://telegra.ph/file/d200133a770bb835fd7dc.jpg)    
-A bot by @JDampage
+(https://telegra.ph/file/d200133a770bb835fd7dc.jpg)    
+A bot by @tgbotslkchat
 """
 
 @app.on_message(filters.command("start"))
