@@ -10,9 +10,9 @@ from JESongBot import LOGGER
 pm_start_text = """
 Hey [{}](tg://user?id={}), I'm Song Downloader Bot 🎵
 
-😉 Just send me the song name you want to download.😋
-      eg:```/song Faded```
-(https://telegra.ph/file/d200133a770bb835fd7dc.jpg)    
+[😉](https://telegra.ph/file/d200133a770bb835fd7dc.jpg) Just send me the song name you want to download.😋
+eg:```/song Faded```
+
 A bot by @tgbotslkchat
 """
 
@@ -36,7 +36,7 @@ async def start(client, message):
         )
     else:
         btn = None
-    await message.reply(pm_start_text.format(name, user_id), disable_web_page_preview=True, reply_markup=btn)
+    await message.reply(pm_start_text.format(name, user_id), reply_markup=btn)
 
 
 app.start()
