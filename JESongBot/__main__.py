@@ -8,7 +8,7 @@ from JESongBot import Jebot as app
 from JESongBot import LOGGER
 
 pm_start_text = """
-Hey [{}](tg://user?id={}), I'm very Powerful 💪 Sri Lankan 🇱🇰  🎶Song Downloader Bot 🎵
+Hey [{}](tg://user?id={}), /nI'm very Powerful 💪 Sri Lankan 🇱🇰  🎶Song Downloader Bot 🎵
 
 [😉](https://telegra.ph/file/d200133a770bb835fd7dc.jpg) Just send me the song name you want to download😋.Type /s"song name" 😊.There Is a an Example Below.
 eg:```/s Faded```
@@ -31,6 +31,9 @@ async def start(client, message):
                     ),
                     InlineKeyboardButton(
                         text="Group🔥", url="https://t.me/tgbotslkgroup"
+                    )
+                    InlineKeyboardButton(
+                        text="😊Add Me To A Group 😋", url="t.me/SLSongDL_Bot?startgroup=true"
                     )
                 ]
             ]
