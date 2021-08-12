@@ -10,7 +10,7 @@ from JESongBot import LOGGER
 pm_start_text = """
 Hey [{}](tg://user?id={}), I'm very Powerful💪 Sri Lankan 🇱🇰  Song Downloader Bot 🎵
 
-[😉](https://telegra.ph/file/d200133a770bb835fd7dc.jpg) Just send me the song name you want to download.😋Please send The Song name With "/s".😊.There Is a an Example Below.
+[😉](https://telegra.ph/file/d200133a770bb835fd7dc.jpg) Just send me the song name you want to download😋.Type /s"song name" 😊.There Is a an Example Below.
 eg:```/s Faded```
 
 A bot by @tgbotslkgroup
