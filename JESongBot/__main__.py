@@ -31,10 +31,8 @@ async def start(client, message):
                     ),
                     InlineKeyboardButton(
                         text="Group🔥", url="https://t.me/tgbotslkgroup"
-                    ),
-                    InlineKeyboardButton(
-                        text="😊Add Me To A Group 😋", url="t.me/SLSongDL_Bot?startgroup=true"
                     )
+                    
                 ]
             ]
         )
