@@ -41,7 +41,7 @@ async def start(client, message):
                 ],
                 [
                     InlineKeyboardButton(
-                        'Help', url = "https://telegra.ph/Song-Download-Bot--Help-08-12"
+                        '✨Help✨', url = "https://telegra.ph/Song-Download-Bot--Help-08-12"
                     )
                  ]
             ]
