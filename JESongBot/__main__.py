@@ -14,7 +14,7 @@ Hey [{}](tg://user?id={}), /nI'm very Powerful 💪 Sri Lankan 🇱🇰  🎶Son
 eg:```/s Faded```
 
 A bot by @tgbotslkgroup
-Maintance By @JDampage & @Zomething_else
+Maintance By @JDampage, @Zomething_else , @JANUDA_LK
 """
 
 @app.on_message(filters.command("start"))
@@ -36,7 +36,7 @@ async def start(client, message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "Add me to your group ",  url= "https://t.me/SLSongDL_Bot?startgroup=true"
+                        "➕Add me to your group➕ ",  url= "https://t.me/SLSongDL_Bot?startgroup=true"
                     )
                 ]
             ]
