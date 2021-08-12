@@ -43,6 +43,11 @@ async def start(client, message):
                     InlineKeyboardButton(
                         '✨Help✨', url = "https://telegra.ph/Song-Download-Bot--Help-08-12"
                     )
+                ],
+                [
+                    InlineKeyboardButton(
+                        '✨Credits✨', url = "https://telegra.ph/Song-Download-Bot--Credits-08-12"
+                    )
                  ]
             ]
         )
