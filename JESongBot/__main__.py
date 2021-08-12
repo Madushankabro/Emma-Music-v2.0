@@ -38,7 +38,12 @@ async def start(client, message):
                     InlineKeyboardButton(
                         "➕Add me to your group➕ ",  url= "https://t.me/SLSongDL_Bot?startgroup=true"
                     )
-                ]
+                ],
+                [
+                    InlineKeyboardButton(
+                        'Help', url = "https://telegra.ph/Song-Download-Bot--Help-08-12"
+                    )
+                 ]
             ]
         )
     else:
