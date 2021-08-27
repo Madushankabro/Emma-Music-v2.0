@@ -8,13 +8,13 @@ from JESongBot import Jebot as app
 from JESongBot import LOGGER
 
 pm_start_text = """
-Hey [{}](tg://user?id={}), I'm very Powerful 💪 Sri Lankan 🇱🇰  🎶Song Downloader Bot 🎵
+Hey [{}](tg://user?id={}), I'm ✨ 𝐄𝐌𝐌𝐀 𝐌𝐔𝐒𝐈𝐂 𝐁𝐎𝐓 ✨.  
 
 [😉](https://telegra.ph/file/cd2f8acb5e54d589fa065.jpg) Just send me the song name you want to download😋.Type /s"song name" 😊.There Is a an Example Below.
-eg:```/s Faded```
+eg:```/s bad habits```
 
-A bot by @tgbotslkgroup
-Maintance By @JDampage, @Zomething_else , @JANUDA_LK
+A bot by @epusthakalaya_bots
+Developed By @kasu_broLK
 """
 
 @app.on_message(filters.command("start"))
@@ -26,29 +26,32 @@ async def start(client, message):
         btn = InlineKeyboardMarkup(
             [
                 [
+                    InlineKeyboardButton(
+                        "🔱 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 🔱",  url= "https://t.me/EmmaMusicPlayerBot?startgroup=true"
+                    )
+                ],
+                [
                      InlineKeyboardButton(
-                        text="Channel 🔊", url="https://t.me/tgbotslk"
+                        text="📣 ʙᴏᴛ ᴄʜᴀɴɴᴇʟ📣", url="https://t.me/epusthakalaya_bots"
                     ),
                     InlineKeyboardButton(
-                        text="Group🔥", url="https://t.me/tgbotslkgroup"
+                        text="👥 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ 👥", url="https://t.me/epusthakalayabotsupport"
                     )
                     
                 ],
                 [
                     InlineKeyboardButton(
-                        "➕Add me to your group➕ ",  url= "https://t.me/SLSongDL_Bot?startgroup=true"
+                        '🆘 ʜᴇʟᴘ 🆘', url = "https://telegra.ph/%F0%9D%90%84%F0%9D%90%8C%F0%9D%90%8C%F0%9D%90%80-%F0%9D%90%8C%F0%9D%90%94%F0%9D%90%92%F0%9D%90%88%F0%9D%90%82-%F0%9D%90%81%F0%9D%90%8E%F0%9D%90%93-Help-08-27"
+                    ),
+                    InlineKeyboardButton(
+                        '💾 sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ 💾', url = "https://github.com/TGBotsLk/SongBot"
                     )
-                ],
+                 ],
                 [
                     InlineKeyboardButton(
-                        '✨Help✨', url = "https://telegra.ph/Song-Download-Bot--Help-08-12"
+                        "★ ʀᴇᴠɪᴇᴡ ᴜs ★ ",  url= "https://t.me/tlgrmcbot?start=emmamusicplayerbot"
                     )
-                ],
-                [
-                    InlineKeyboardButton(
-                        '✨Credits✨', url = "https://telegra.ph/Song-Download-Bot--Credits-08-12"
-                    )
-                 ]
+                ]
             ]
         )
     else:
@@ -57,5 +60,5 @@ async def start(client, message):
 
 
 app.start()
-LOGGER.info("✅ SongBot is online.")
+LOGGER.info("✅ EMMA MUSIC BOT is online.")
 idle()
