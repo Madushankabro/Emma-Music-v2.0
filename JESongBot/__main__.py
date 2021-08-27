@@ -13,8 +13,8 @@ Hey [{}](tg://user?id={}), I'm ✨ 𝐄𝐌𝐌𝐀 𝐌𝐔𝐒𝐈𝐂 𝐁�
 [😉](https://telegra.ph/file/cd2f8acb5e54d589fa065.jpg) Just send me the song name you want to download😋.Type /s"song name" 😊.There Is a an Example Below.
 eg:```/s bad habits```
 
-A bot by @epusthakalaya_bots
-Developed By @kasu_broLK
+**A bot by @epusthakalaya_bots**
+**Developed By @kasu_bro 🇱🇰**
 """
 
 @app.on_message(filters.command("start"))
