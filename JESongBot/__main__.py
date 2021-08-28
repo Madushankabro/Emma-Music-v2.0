@@ -10,8 +10,8 @@ from JESongBot import LOGGER
 pm_start_text = """
 Hey [{}](tg://user?id={}), I'm ✨ 𝐄𝐌𝐌𝐀 𝐌𝐔𝐒𝐈𝐂 𝐁𝐎𝐓 ✨.  
 
-[😉](https://telegra.ph/file/d6a6f55cbf8a687163b0e.jpg) Just send me the song name you want to download😋.Type /s"song name" 😊.There Is a an Example Below.
-eg:```/s bad habits```
+[😉](https://telegra.ph/file/d6a6f55cbf8a687163b0e.jpg) Just send me the song name you want to download😋.Type /music"song name" 😊.There Is a an Example Below.
+eg:```/music bad habits```
 
 **A bot by @epusthakalaya_bots**
 **Developed By @kasu_bro 🇱🇰**
