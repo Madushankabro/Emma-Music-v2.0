@@ -1,8 +1,8 @@
-# TG Song Download  Bot
+#  𝐄𝐌𝐌𝐀 𝐌𝐔𝐒𝐈𝐂 𝐁𝐎𝐓 v2.0
 ##  🎹 A telegram bot that can download songs 🎸
-### Reach me on Telegram [🎹 Song Download Bot 🎸](http://t.me/SLSongDL_Bot)
+### Reach me on Telegram [✨ 𝐄𝐌𝐌𝐀 𝐌𝐔𝐒𝐈𝐂 𝐁𝐎𝐓 ✨](http://t.me/EmmaMusicPlayerBot)
 <p align="center">
-  <img src="https://telegra.ph/file/dcc1b80b52420cf624753.jpg">
+  <img src="https://telegra.ph/file/d6a6f55cbf8a687163b0e.jpg">
 </p>
 
 
@@ -11,25 +11,21 @@
 ### Deploy to Heroku 🏃‍♂
 
 The easiest way to deploy this Song Bot  <br><br>
-[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/UvinduBro/UBSongBot)
+[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Madushankabro/Emma-Music-v2.0)
 
 
 ## Credits
 
-- [Pyrogram](https://github.com/pyrogram)
 - Mr Dark Prince
+- [Pyrogram](https://github.com/pyrogram)
+- [scprojectslk](https://github.com/scprojectslk)
+- [ImJanindu](https://github.com/ImJanindu)
+- [Infinity BOTs](https://t.me/Infinity_BOTs)
+- [UvinduBro](https://t.me/Uvindu_Bro)
 
-### Credits:
+### Repo Credits:
 
-[scprojectslk](https://github.com/scprojectslk)
-
-[ImJanindu](https://github.com/ImJanindu)
-
-[Infinity BOTs](https://t.me/Infinity_BOTs)
-
-[UvinduBro](https://t.me/Uvindu_Bro)
+[Original Repo Owners](https://github.com/TGBotsLk/SongBot)
 
 ### Developers:
-[JDampage](https://t.me/JDampage)
-[SomthingElse](https://t.me/Zomething_else)
-
+[ᴋᴀsᴜ ʙʀᴏ 🇱🇰](https://t.me/kasu_bro)
