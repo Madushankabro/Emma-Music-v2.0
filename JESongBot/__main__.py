@@ -44,7 +44,7 @@ async def start(client, message):
                         '🆘 ʜᴇʟᴘ 🆘', url = "https://telegra.ph/%F0%9D%90%84%F0%9D%90%8C%F0%9D%90%8C%F0%9D%90%80-%F0%9D%90%8C%F0%9D%90%94%F0%9D%90%92%F0%9D%90%88%F0%9D%90%82-%F0%9D%90%81%F0%9D%90%8E%F0%9D%90%93-Help-08-27"
                     ),
                     InlineKeyboardButton(
-                        '💾 sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ 💾', url = "https://github.com/TGBotsLk/SongBot"
+                        '💾 sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ 💾', url = "https://github.com/Madushankabro/Emma-Music-v2.0"
                     )
                  ],
                 [
