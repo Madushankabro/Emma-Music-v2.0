@@ -8,13 +8,13 @@ from JESongBot import Jebot as app
 from JESongBot import LOGGER
 
 pm_start_text = """
-Hey [{}](tg://user?id={}), I'm ✨ 𝐄𝐌𝐌𝐀 𝐌𝐔𝐒𝐈𝐂 𝐁𝐎𝐓 ✨.  
+Hey [{}](tg://user?id={})\n
+ɪ ᴀᴍ ʟɪʟʏ ✘ ʀᴏʙᴏᴛ.  
 
-[😉](https://telegra.ph/file/d6a6f55cbf8a687163b0e.jpg) Just send me the song name you want to download😋.Type /music"song name" 😊.There Is a an Example Below.
-eg:```/music bad habits```
+[🙈](https://telegra.ph/file/0c0bfd5a1259718d5b6bd.jpg) ᴊᴜꜱᴛ ꜱᴇɴᴅ ᴍᴇ ᴛʜᴇ ꜱᴏɴɢ ɴᴀᴍᴇ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ 📥\n ᴛʏᴘᴇ /ᴍᴜꜱɪᴄ"ꜱᴏɴɢ ɴᴀᴍᴇ" 🎵 \n ᴇɢ:```/music On My Way```
 
-**A bot by @epusthakalaya_bots**
-**Developed By @kasu_bro 🇱🇰**
+** 🎊 ᴀ ʙᴏᴛ ʙʏ : @EpicBotsSl**
+** 👨‍💻 ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ : @xMalitha**
 """
 
 @app.on_message(filters.command("start"))
@@ -27,29 +27,29 @@ async def start(client, message):
             [
                 [
                     InlineKeyboardButton(
-                        "🔱 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 🔱",  url= "https://t.me/EmmaMusicPlayerBot?startgroup=true"
+                        "🔱 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 🔱",  url= "https://t.me/LilyXRobot?startgroup=true"
                     )
                 ],
                 [
                      InlineKeyboardButton(
-                        text="📣 ʙᴏᴛ ᴄʜᴀɴɴᴇʟ📣", url="https://t.me/epusthakalaya_bots"
+                        text="📣 ʙᴏᴛ ᴄʜᴀɴɴᴇʟ📣", url="https://t.me/epicbotssl"
                     ),
                     InlineKeyboardButton(
-                        text="👥 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ 👥", url="https://t.me/epusthakalayabotsupport"
+                        text="👥 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ 👥", url="https://t.me/EpicChats"
                     )
                     
                 ],
                 [
                     InlineKeyboardButton(
-                        '🆘 ʜᴇʟᴘ 🆘', url = "https://telegra.ph/%F0%9D%90%84%F0%9D%90%8C%F0%9D%90%8C%F0%9D%90%80-%F0%9D%90%8C%F0%9D%90%94%F0%9D%90%92%F0%9D%90%88%F0%9D%90%82-%F0%9D%90%81%F0%9D%90%8E%F0%9D%90%93-Help-08-27"
+                        '🆘 ʜᴇʟᴘ 🆘', url = "https://t.me/xMalitha"
                     ),
                     InlineKeyboardButton(
-                        '💾 sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ 💾', url = "https://github.com/Madushankabro/Emma-Music-v2.0"
+                        '💾 sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ 💾', url = "https://github.com/xMalitha"
                     )
                  ],
                 [
                     InlineKeyboardButton(
-                        "★ ʀᴇᴠɪᴇᴡ ᴜs ★ ",  url= "https://t.me/tlgrmcbot?start=emmamusicplayerbot"
+                        "ᴏᴛʜᴇʀ ʙᴏᴛs",  url= "https://t.me/EpicBotsSl/20"
                     )
                 ]
             ]
@@ -60,5 +60,5 @@ async def start(client, message):
 
 
 app.start()
-LOGGER.info("✅ EMMA MUSIC BOT is online.")
+LOGGER.info("✅ ʟɪʟʏ ✘ ʀᴏʙᴏᴛ ɪs ᴏɴʟɪɴᴇ")
 idle()
